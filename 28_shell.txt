@@ -1,0 +1,51 @@
+El siguiente proceso es la shell, que ya te la presenté, entonces no lo voy a hacer otra vez, pero si no lo hiciste, reto, ponte a practicar con eso, porque es importante por dos cosas.
+Por una parte, conocer una herramienta tan interesante como viene siendo la shell y tan útil, porque cuando no sepas por qué no está funcionando algo, ahí lo puedes hacer.
+Y ahí puedes ver la diferencia que tenemos con la shell de Python. Recuerda que también por aquí puedes escribir, ya eso es cuando está la Python de raíz, aquí tengo un servidor, aquí tengo esto, voy a abrir otra.
+Puedes escribir aquí Python Shell y tienes otra, para ver, Python Shell, ahora la cosa.
+Perdón, es simplemente Python, me fui demasiado, Python.
+Y por aquí tienes una consola también interactiva. La diferencia es que esta es simplemente Python en general, tú aquí por ejemplo no puedes referenciar a Comments ni nada por el estilo, porque te va a decir qué pasa contigo.
+No sabes qué es esto, tienes que importarlo, pero obviamente lo que queremos es utilizar lo que tenemos en nuestro proyecto, y es por eso que tenemos esta.
+Por lo tanto, aquí tenemos lo mismo que podemos hacer en Python, más el plus de nuestro proyecto.
+Entonces, por una parte ya puedes aprender a trabajar con esta herramienta.
+Ah, por cierto, estos models que aparecen aquí se sacan con escape.
+Y por otra parte, puedes practicar con las operaciones que ya vamos a realizar en el siguiente apartado.
+Así que bueno, aquí tenemos el Shell. Estos son los retos.
+Bueno, no hace falta importarlo, pero, creo.
+Pero bueno, si te lo pide, ahí lo importas.
+Obtenerlos todos con su filtro.
+Aquí si no existe te va a decir, aquí también puedes buscar por la pk.
+Puedes colocar id o pk.
+Aquí lo que es el... Ah, mira, aquí tenemos el uso de la función que te comentaba antes, que está el Sorcus.
+Que es de getOtjar o 404. También tenemos una para los listados.
+Ya la vamos a emplear, pero pruébalo tú y ves que es lo que te devuelven.
+Yo no lo voy a probar por ti.
+Aquí tenemos... Es decir, pauso este video y ahí puedes probar eso.
+CommentDelete, que ya lo probamos.
+El de commentSave, ya lo probamos.
+Un filtro, ya lo probamos.
+El de get, ya lo probamos.
+OrderBy, medio fastidio.
+Y el de delete, otra vez.
+Entonces, el de orderBy lo que hace es obtener por el...
+Ordena por un campo en particular.
+Puedes colocar la fecha.
+Usualmente ordena por el id.
+Por defecto, puedes colocar el texto, etcétera, etcétera, etcétera.
+Lo cual es extremadamente útil cuando quieras crear tu propio datatable.
+A ver si aparece algo bonito.
+Mir, todavía existe jQuery datatable.
+Por los dioses.
+Este es jQuery.
+Creo, aunque no hice por ninguna parte.
+Bueno, pueden que haya migrado.
+No sé, tengo años que no veo esta página.
+Pero es para esto.
+Ahí puedes perfectamente crear ahí tus campos de...
+Ordenación, precisamente, justamente con eso.
+Entonces, ya que tienes todas las herramientas, menos la paginación, que la veremos luego.
+Que sí, esas son las cosas que nos gustan mucho de Django, la paginación.
+Pero ya eso lo criticaré en su momento oportuno.
+Así que, pues nada, sin más que decir, continuamos en la siguiente clase.
+¡Gracias!
+¡Gracias!
+¡Gracias!

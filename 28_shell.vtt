@@ -1,0 +1,155 @@
+WEBVTT
+
+00:00.000 --> 00:08.440
+El siguiente proceso es la shell, que ya te la presenté, entonces no lo voy a hacer otra vez, pero si no lo hiciste, reto, ponte a practicar con eso, porque es importante por dos cosas.
+
+00:08.720 --> 00:17.340
+Por una parte, conocer una herramienta tan interesante como viene siendo la shell y tan útil, porque cuando no sepas por qué no está funcionando algo, ahí lo puedes hacer.
+
+00:17.740 --> 00:27.660
+Y ahí puedes ver la diferencia que tenemos con la shell de Python. Recuerda que también por aquí puedes escribir, ya eso es cuando está la Python de raíz, aquí tengo un servidor, aquí tengo esto, voy a abrir otra.
+
+00:27.660 --> 00:34.800
+Puedes escribir aquí Python Shell y tienes otra, para ver, Python Shell, ahora la cosa.
+
+00:37.780 --> 00:41.780
+Perdón, es simplemente Python, me fui demasiado, Python.
+
+00:42.920 --> 00:53.020
+Y por aquí tienes una consola también interactiva. La diferencia es que esta es simplemente Python en general, tú aquí por ejemplo no puedes referenciar a Comments ni nada por el estilo, porque te va a decir qué pasa contigo.
+
+00:53.020 --> 01:00.960
+No sabes qué es esto, tienes que importarlo, pero obviamente lo que queremos es utilizar lo que tenemos en nuestro proyecto, y es por eso que tenemos esta.
+
+01:01.120 --> 01:05.820
+Por lo tanto, aquí tenemos lo mismo que podemos hacer en Python, más el plus de nuestro proyecto.
+
+01:06.300 --> 01:09.680
+Entonces, por una parte ya puedes aprender a trabajar con esta herramienta.
+
+01:10.040 --> 01:13.980
+Ah, por cierto, estos models que aparecen aquí se sacan con escape.
+
+01:13.980 --> 01:21.100
+Y por otra parte, puedes practicar con las operaciones que ya vamos a realizar en el siguiente apartado.
+
+01:21.660 --> 01:24.220
+Así que bueno, aquí tenemos el Shell. Estos son los retos.
+
+01:24.920 --> 01:26.920
+Bueno, no hace falta importarlo, pero, creo.
+
+01:27.440 --> 01:29.140
+Pero bueno, si te lo pide, ahí lo importas.
+
+01:30.160 --> 01:32.880
+Obtenerlos todos con su filtro.
+
+01:32.980 --> 01:35.700
+Aquí si no existe te va a decir, aquí también puedes buscar por la pk.
+
+01:36.740 --> 01:37.980
+Puedes colocar id o pk.
+
+01:37.980 --> 01:44.700
+Aquí lo que es el... Ah, mira, aquí tenemos el uso de la función que te comentaba antes, que está el Sorcus.
+
+01:45.220 --> 01:48.200
+Que es de getOtjar o 404. También tenemos una para los listados.
+
+01:48.700 --> 01:51.040
+Ya la vamos a emplear, pero pruébalo tú y ves que es lo que te devuelven.
+
+01:51.100 --> 01:52.020
+Yo no lo voy a probar por ti.
+
+01:53.160 --> 01:55.640
+Aquí tenemos... Es decir, pauso este video y ahí puedes probar eso.
+
+01:56.260 --> 01:57.520
+CommentDelete, que ya lo probamos.
+
+01:57.600 --> 01:59.360
+El de commentSave, ya lo probamos.
+
+02:00.100 --> 02:01.260
+Un filtro, ya lo probamos.
+
+02:01.260 --> 02:02.960
+El de get, ya lo probamos.
+
+02:03.520 --> 02:04.640
+OrderBy, medio fastidio.
+
+02:05.120 --> 02:06.040
+Y el de delete, otra vez.
+
+02:06.040 --> 02:10.180
+Entonces, el de orderBy lo que hace es obtener por el...
+
+02:10.180 --> 02:11.420
+Ordena por un campo en particular.
+
+02:12.020 --> 02:12.860
+Puedes colocar la fecha.
+
+02:13.040 --> 02:14.080
+Usualmente ordena por el id.
+
+02:14.220 --> 02:16.980
+Por defecto, puedes colocar el texto, etcétera, etcétera, etcétera.
+
+02:17.360 --> 02:20.960
+Lo cual es extremadamente útil cuando quieras crear tu propio datatable.
+
+02:21.600 --> 02:22.560
+A ver si aparece algo bonito.
+
+02:23.640 --> 02:25.660
+Mir, todavía existe jQuery datatable.
+
+02:25.780 --> 02:26.500
+Por los dioses.
+
+02:27.200 --> 02:28.040
+Este es jQuery.
+
+02:29.680 --> 02:31.100
+Creo, aunque no hice por ninguna parte.
+
+02:31.520 --> 02:32.420
+Bueno, pueden que haya migrado.
+
+02:32.560 --> 02:33.840
+No sé, tengo años que no veo esta página.
+
+02:34.640 --> 02:35.360
+Pero es para esto.
+
+02:35.360 --> 02:39.500
+Ahí puedes perfectamente crear ahí tus campos de...
+
+02:39.500 --> 02:41.960
+Ordenación, precisamente, justamente con eso.
+
+02:42.060 --> 02:45.720
+Entonces, ya que tienes todas las herramientas, menos la paginación, que la veremos luego.
+
+02:45.940 --> 02:48.380
+Que sí, esas son las cosas que nos gustan mucho de Django, la paginación.
+
+02:48.640 --> 02:51.720
+Pero ya eso lo criticaré en su momento oportuno.
+
+02:52.440 --> 02:56.180
+Así que, pues nada, sin más que decir, continuamos en la siguiente clase.
+
+02:56.180 --> 02:57.180
+¡Gracias!
+
+02:57.180 --> 02:58.180
+¡Gracias!
+
+02:58.180 --> 02:59.180
+¡Gracias!
+
