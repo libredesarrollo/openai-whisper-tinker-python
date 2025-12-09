@@ -1,5 +1,13 @@
 pyinstaller --onefile --windowed --add-data "venv/Lib/site-packages/customtkinter;customtkinter" transcriptor_app.py
 
+MAC OS
+
+pyinstaller --onefile --windowed \
+--add-data "venv/lib/python3.13/site-packages/customtkinter:customtkinter" \
+--name "WhisperTranscriptor" transcriptor_app.py
+
+
+
 https://gemini.google.com/app/dc2cf3e6543e634f?hl=es
 
 
