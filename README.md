@@ -1,7 +1,30 @@
 
 Ruta para exportar en Windows
 
-pyinstaller --onefile --windowed --add-data "C:\Users\andre\Desktop\proy\whisper\.venv\Lib\site-packages\customtkinter;customtkinter" transcriptor_app_modulo.py
+Para que no de el error de:
+
+ERROR: [Errno 2] No such file or directory: 'C:\\Users\\andre\\AppData\\Local\\Temp\\_MEI433402\\whisper\\assets\\mel_filters.npz'
+
+pyinstaller --onedir --windowed --clean `
+--add-data ".venv/Lib/site-packages/customtkinter;customtkinter" `
+--name "WhisperTranscriptor" `
+transcriptor_app_modulo.py
+
+PS
+pyinstaller --onedir --windowed --clean ^
+--add-data ".venv/Lib/site-packages/customtkinter;customtkinter" ^
+--name "WhisperTranscriptor" ^
+transcriptor_app_modulo.py
+
+
+--clean: Esto es vital. Borra la caché de compilaciones anteriores. Muchas veces el error de "carpeta no encontrada" es porque PyInstaller está usando una copia vieja y corrupta de tu proyecto.
+
+
+
+
+
+
+pyinstaller --onefile --windowed --add-data "C:\Users\andre\Desktop\proy\whisper\.venv\Lib\site-packages\customtkinter;customtkinter" --name "WhisperApp" transcriptor_app_modulo.py
 
 MAC OS
 
