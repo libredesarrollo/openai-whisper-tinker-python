@@ -1,10 +1,45 @@
-pyinstaller --onefile --windowed --add-data "venv/Lib/site-packages/customtkinter;customtkinter" transcriptor_app.py
+
+Ruta para exportar en Windows
+
+pyinstaller --onefile --windowed --add-data "C:\Users\andre\Desktop\proy\whisper\.venv\Lib\site-packages\customtkinter;customtkinter" transcriptor_app_modulo.py
 
 MAC OS
 
 pyinstaller --onefile --windowed \
 --add-data "venv/lib/python3.13/site-packages/customtkinter:customtkinter" \
 --name "WhisperTranscriptor" transcriptor_app.py
+
+
+
+1. Primero, obtén la ruta de CustomTkinter
+Antes de lanzar el comando, necesitamos la ruta exacta de donde está instalada la librería en tu entorno virtual. Ejecuta esto con el venv activado:
+
+Bash
+python -c "import customtkinter; print(customtkinter.__path__[0])"
+Copia el resultado (será algo como /Users/.../customtkinter o C:\Users\...\customtkinter).
+
+2. El comando para macOS (Mac Mini)
+En Mac usamos el signo : para separar la ruta de origen de la de destino.
+
+Bash
+pyinstaller --onedir --windowed \
+--add-data "RUTA_QUE_COPIASTE:customtkinter" \
+--name "WhisperTranscriptor" transcriptor_app.py
+3. El comando para Windows (RTX 5070)
+En Windows usamos el signo ; y las barras suelen ser invertidas \.
+
+Bash
+pyinstaller --onedir --windowed ^
+--add-data "RUTA_QUE_COPIASTE;customtkinter" ^
+--name "WhisperTranscriptor" transcriptor_app.py
+💡 Notas importantes para que funcione:
+--onedir: Es mejor que --onefile para apps grandes como esta. Crea una carpeta en dist/ que contiene todo. Si usas Mac, dentro verás el archivo .app. Si usas Windows, verás el .exe.
+
+--windowed: Evita que se abra una ventana negra de consola detrás de tu interfaz bonita de CustomTkinter.
+
+¿Dónde está el resultado?: En una carpeta llamada dist que aparecerá en tu proyecto.
+
+La RTX 5070: Si compilas en Windows, recuerda que para que la app use la gráfica, el ordenador donde la abras debe tener instalados los Drivers de NVIDIA y tú debes haber instalado PyTorch con CUDA en el venv antes de compilar.
 
 
 
